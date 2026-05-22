@@ -1,0 +1,25 @@
+{
+  "name": "price-tracker",
+  "version": "1.0.0",
+  "description": "轻量化商品价格追踪与走势图系统",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "price",
+    "tracker",
+    "ecommerce",
+    "monitor"
+  ],
+  "author": "个人",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^21.11.0",
+    "sql.js": "^1.10.3"
+  }
+}
